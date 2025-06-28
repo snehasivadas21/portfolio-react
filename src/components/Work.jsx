@@ -4,6 +4,12 @@ import ProjectCard from './ProjectCard';
 
 const works = [
   {
+    imgSrc: 'sneha/images/project-6.jpg',
+    title: 'E-learning',
+    tags: ['React', 'DRF'],
+    projectLink: 'https://github.com/snehasivadas21/pytech'
+  },
+  {
     imgSrc: 'sneha/images/project-1.jpg',
     title: 'Full stack Bus Booking app',
     tags: ['DRF', 'React'],
@@ -33,12 +39,7 @@ const works = [
     tags: ['Django', 'HTML','CSS'],
     projectLink: 'https://github.com/snehasivadas21/jewellery'
   },
-  {
-    imgSrc: 'sneha/images/project-6.jpg',
-    title: 'Personal portfolio',
-    tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/snehasivadas21/portfolio'
-  },
+  
 ];
 
 const Work = () => {
